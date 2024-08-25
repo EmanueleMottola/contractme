@@ -19,6 +19,12 @@ repositories {
 }
 
 dependencies {
+	// https://mvnrepository.com/artifact/com.github.librepdf/openpdf
+	implementation("com.github.librepdf:openpdf:2.0.3")
+
+	// https://mvnrepository.com/artifact/org.jooq/jooq
+	implementation("org.jooq:jooq:3.19.11")
+
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
